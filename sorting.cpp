@@ -121,7 +121,6 @@ void countingSort(int arr[], int n) {
 }
 
 // (x) bucket sort
-void insertionSort(int arr[], int n);
 void bucketSort(int arr[], int n) {
     int buckets[10][MAX_SIZE] = {0};
     int bucket_count[10] = {0};
