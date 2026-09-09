@@ -139,7 +139,6 @@ void bucketSort(int arr[], int n) {
 }
 
 // (xi) RADIX EXCHANGE SORT
-// (x) RADIX EXCHANGE SORT
 void radixExchangeSort(int arr[], int left, int right, int bit) {
     if (left >= right || bit < 0)
         return;
